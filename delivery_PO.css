@@ -1,0 +1,115 @@
+﻿
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    font-size: 15px;
+}
+
+.container {
+    width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 1000px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    color: steelblue;
+    margin-left: 30px;
+}
+
+.purchase-order-details {
+    margin-bottom: 20px;
+}
+
+    .purchase-order-details label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+.product-list {
+    overflow: auto;
+    height: 200px;
+}
+
+    .product-list table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+    .product-list th, .product-list td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+.total {
+    text-align: right;
+    margin-right: 30px;
+}
+
+    .total label {
+        font-weight: bold;
+    }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.POandDate {
+    display: flex;
+    flex-direction: column;
+    border: double;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.logo {
+    max-height: 115px; /* Adjust the max-height as needed */
+}
+
+.company-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.Supplier-and-ShipTo {
+    display: flex;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 300px;
+    margin-right: 350px;
+}
+
+.cont2 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 300px;
+}
+
+.buttons {
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-close {
+    margin-left: 900px;
+}
